@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/register_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/logoImageView"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_gravity="center"
+
+        android:src="@drawable/regimag"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:text="SIGN UP"
+        android:textSize="40dp"
+
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <EditText
+        android:id="@+id/FullNameRegister"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/edit_text_background"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="  👤  Full Name"
+
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:hint="  ✉️  Email"
+
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordRegister"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_background"
+        android:layout_gravity="center"
+
+        android:hint="  🔒  ••••••••"
+
+        android:layout_marginTop="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/BirthDateRegister"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+
+        android:background="@drawable/edit_text_background"
+        android:layout_gravity="center"
+        android:inputType="date"
+        android:hint="  🗓️  BirthDate"
+
+        android:layout_marginTop="10dp"
+        />
+
+        <EditText
+            android:id="@+id/PhoneNumberRegister"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+
+            android:background="@drawable/edit_text_background"
+            android:layout_gravity="center"
+            android:inputType="phone"
+            android:hint="  ☎️  Phone Number"
+
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/signUpRegister"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="bottom"
+            android:background="@drawable/button_background"
+            android:text="Sign Up"
+
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white" />
+
+</LinearLayout>

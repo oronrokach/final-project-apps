@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:backgroundTint="@color/white"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        />
+
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_gravity="center"
+        android:hint="  ✉️  Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        />
+
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_gravity="center"
+        android:hint="  🔒  ••••••••"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/LoginLogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColorHint="@color/white"
+        android:hint="LOGIN"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Not a member?"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <Button
+        android:id="@+id/signUpLogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColorHint="@color/white"
+        android:hint="SIGN UP"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
